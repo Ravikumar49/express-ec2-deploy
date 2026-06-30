@@ -1,0 +1,12 @@
+{
+  "name": "express-ec2-deploy",
+  "version": "1.0.0",
+  "description": "Express API deployed to EC2 via GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  }
+}
