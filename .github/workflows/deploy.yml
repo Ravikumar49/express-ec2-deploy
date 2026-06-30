@@ -32,3 +32,4 @@ jobs:
             docker stop express-api || true
             docker rm express-api || true
             docker run -d -p 3000:3000 --name express-api ${{ secrets.DOCKERHUB_USERNAME }}/express-ec2-api:latest
+            sudo systemctl restart nginx
